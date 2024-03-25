@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#dream-world-store {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 999;
+  font-style: normal;
+}
+#link {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 999;
+  font-style: normal;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.card {
+  margin: 10px 40px;
+}
+form {
+  margin: 20px;
+}
+.btn-group {
+  margin: 0 102px;
+}
+.label {
+  margin-left: 105px;
+  margin-bottom: 10px;
+}
+.price {
+  margin-top: 10px;
+}
+#orderSuccessModal {
+  margin: 60px;
+}
+#recipt {
+  margin-top: 10px;
+}
+#stick {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+#category {
+  background-color: #fff;
+  width: 100%;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  text-align: center;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.card-img-top {
+  height: 300px;
+  object-fit: contain;
+}
